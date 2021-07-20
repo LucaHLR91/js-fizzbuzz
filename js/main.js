@@ -5,7 +5,7 @@
 // scrivi un programma che stampi numeri da 1 a 100 
 var iterazioni = 100;
 
-for(i = 1; i < iterazioni; i++) {
+for(i = 1; i <= iterazioni; i++) {
     
     if (i % 15 == 0) {
         console.log('FizzBuzz');
